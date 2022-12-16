@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1085358478598",
+    "project_id": "database-52970",
+    "storage_bucket": "database-52970.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085358478598:android:9394bc2076802b827c7a87",
+        "android_client_info": {
+          "package_name": "com.fatiherdem.lifereset"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085358478598-9mo5ecifsbh5j2hq361l34oq4pmfu58h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIxL5vaANl55zZoh96-PHSrWOTw2bPq4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085358478598-9mo5ecifsbh5j2hq361l34oq4pmfu58h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
