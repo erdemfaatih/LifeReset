@@ -1,33 +1,40 @@
 package com.fatiherdem.lifereset;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
+public class Restaurant {
+    public String name;
+    public String distance;
+    public String density;
 
-import com.fatiherdem.lifereset.databinding.ActivityRestaurantBinding;
-import com.fatiherdem.lifereset.databinding.ActivityWelcomeBinding;
+    public Restaurant() {}
 
-public class Restaurant extends AppCompatActivity {
-    Button button;
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurant);
-        button = findViewById(R.id.goRestaurant);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(Restaurant.this,RestaurantSpecialss.class);
-                startActivity(intent);
-            }
-        });
-
-
+    public Restaurant(String name, String distance, String density) {
+        this.name = name;
+        this.distance = distance;
+        this.density = density;
     }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDistance() {
+        return distance;
+    }
+
+    public void setDistance(String distance) {
+        this.distance = distance;
+    }
+
+    public String getDensity() {
+        return density;
+    }
+
+    public void setDensity(String density) {
+        this.density = density;
+    }
 }

@@ -10,7 +10,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.fatiherdem.lifereset.databinding.ActivityMainBinding;
 import com.fatiherdem.lifereset.databinding.ActivityWelcomeBinding;
 import com.google.firebase.auth.FirebaseAuth;
 
@@ -53,7 +52,7 @@ public class Welcome extends AppCompatActivity {
     }
 
     public void goRestaurant(View view){
-        intent = new Intent(Welcome.this,Restaurant.class);
+        intent = new Intent(Welcome.this, ListRestaurants.class);
         startActivity(intent);
     }
 }

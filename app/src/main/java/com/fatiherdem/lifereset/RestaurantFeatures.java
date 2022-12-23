@@ -5,10 +5,10 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
-import androidx.fragment.app.FragmentManager;
+
 import com.google.android.material.tabs.TabLayout;
 
-public class RestaurantSpecialss extends AppCompatActivity {
+public class RestaurantFeatures extends AppCompatActivity {
     private TabLayout tabLayout;
     private ViewPager viewPager;
 
